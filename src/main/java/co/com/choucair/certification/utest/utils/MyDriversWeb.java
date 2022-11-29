@@ -16,7 +16,7 @@ public class MyDriversWeb {
         return new MyDriversWeb();
     }
 
-    public  WebDriver inThePageWeb(String url) {
+    public WebDriver inThePageWeb(String url) {
         driver.get(url);
         return driver;
     }
